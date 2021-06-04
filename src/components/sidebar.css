@@ -1,0 +1,27 @@
+.sidebar {
+  background: #040404;
+  flex: 0.2;
+  min-width: 23rem;
+  height: 100vh;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: white;
+}
+.sidebar__logo {
+  padding: 1rem;
+  height: 7rem;
+  margin-right: auto;
+  object-fit: contain;
+}
+
+.sidebar__playlist {
+  margin-left: 1rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.sidebar > hr {
+  border: 1px solid #282828;
+  width: 90%;
+  margin: 1rem auto;
+}

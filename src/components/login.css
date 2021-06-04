@@ -1,0 +1,26 @@
+.background {
+  display: grid;
+  place-items: center;
+  background-color: black;
+  height: 100vh;
+}
+
+.background img {
+  height: 30rem;
+}
+
+.background a {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.background .button {
+  background-color: #1db954;
+  padding: 2rem;
+  width: 30%;
+  border-radius: 4rem;
+  text-align: center;
+}
